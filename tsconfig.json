@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "declaration": true,
+    "preserveSymlinks": true,
+    "outDir": "dist",
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "declarationDir": "dist",
+    "moduleResolution": "Node"
+  },
+  "include": ["src"]
+}

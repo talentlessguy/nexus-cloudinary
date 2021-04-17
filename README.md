@@ -1,4 +1,7 @@
-# nexus-cloudinary
+<p align="center">
+  <img src="logo.png" width="200px" />
+</p>
+  <h1 align="center">cloudinary-nexus</h1>
 
 ![Top language][top-lang-image]
 ![Vulnerabilities][snyk-image]

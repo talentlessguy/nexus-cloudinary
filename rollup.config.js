@@ -12,5 +12,6 @@ export default {
       format: 'cjs'
     }
   ],
-  plugins: [ts({ include: ['./src/**/*.ts'] })]
+  plugins: [ts({ include: ['./src/**/*.ts'] })],
+  external: ['nexus']
 }

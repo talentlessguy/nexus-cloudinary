@@ -49,7 +49,7 @@ export const UploadedImage = objectType({
   name: 'UploadedImage',
   definition(t) {
     t.nonNull.string('public_id')
-    t.nonNull.string('version')
+    t.nonNull.int('version')
     t.nonNull.string('signature')
     t.nonNull.int('width')
     t.nonNull.int('height')

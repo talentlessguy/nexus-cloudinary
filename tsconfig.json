@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "preserveSymlinks": true,
-    "outDir": "dist",
     "isolatedModules": true,
-    "noUnusedLocals": false,
-    "noImplicitAny": false,
-    "declarationDir": "dist",
-    "moduleResolution": "Node"
+    "outDir": "dist",
+    "noUnusedLocals": true
   },
   "include": ["src"]
 }

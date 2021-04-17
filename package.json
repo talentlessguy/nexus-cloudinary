@@ -3,25 +3,46 @@
   "version": "0.0.0",
   "description": "Nexus plugin for Cloudinary",
   "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format=esm,cjs --dts"
+    "build": "rollup -c"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/talentlessguy/nexus-cloudinary.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nexus",
+    "nexus-plugin",
+    "nexus-graphql",
+    "graphql",
+    "cloudinary",
+    "image-upload"
+  ],
+  "author": "v1rtl (https://v1rtl.site)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/talentlessguy/nexus-cloudinary/issues"
   },
   "homepage": "https://github.com/talentlessguy/nexus-cloudinary#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "cloudinary": "^1.25.1",
     "nexus": "^1.0.0",
+    "rollup": "^2.45.2",
     "tslib": "^2.2.0",
-    "tsup": "^4.8.21",
     "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "cloudinary": ">=1.25.1",
+    "nexus": ">=1"
+  },
+  "engines": {
+    "node": ">=12.4"
   }
 }

@@ -34,7 +34,7 @@
     "@rollup/plugin-typescript": "^8.2.1",
     "cloudinary": "^1.25.1",
     "nexus": "^1.0.0",
-    "rollup": "^2.45.2",
+    "rollup": "^2.46.0",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4"
   },

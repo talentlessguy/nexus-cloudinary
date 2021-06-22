@@ -3,11 +3,9 @@
 </p>
   <h1 align="center">cloudinary-nexus</h1>
 
-![Top language][top-lang-image]
 ![Vulnerabilities][snyk-image]
 [![Version][npm-v-image]][npm-url]
 [![Node Version][node-version-image]][node-version-url]
-![Last commit][last-commit-image]
 
 Nexus plugin for [Cloudinary](https://cloudinary.com). Useful for uploading files with GraphQL.
 
@@ -94,8 +92,6 @@ mutation {
 
 [node-version-image]: https://img.shields.io/node/v/nexus-cloudinary.svg?style=flat-square
 [node-version-url]: https://nodejs.org
-[top-lang-image]: https://img.shields.io/github/languages/top/talentlessguy/nexus-cloudinary.svg?style=flat-square
 [snyk-image]: https://img.shields.io/snyk/vulnerabilities/npm/nexus-cloudinary.svg?style=flat-square
 [npm-v-image]: https://img.shields.io/npm/v/nexus-cloudinary.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/nexus-cloudinary
-[last-commit-image]: https://img.shields.io/github/last-commit/talentlessguy/nexus-cloudinary.svg?style=flat-square
